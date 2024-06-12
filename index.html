@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FarmLink: Livestock Marketplace</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>FarmLink</h1>
+    <h2>Connect. Sell. Grow.</h2>
+  </header>
+  <main>
+    <section id="listings">
+      <h2>Livestock Listings</h2>
+      <ul id="animal-list">
+      </ul>
+    </section>
+    <section id="add-listing">
+      <h2>Add Your Listing</h2>
+      <form id="listing-form">
+        <label for="animal-type">Animal Type:</label>
+        <input type="text" id="animal-type" name="animal-type" placeholder="Enter animal type..." required>
+        <label for="animal-image">Add Image:</label>
+        <input type="file" id="animal-image" name="animal-image" placeholder="Upload your image..." required>
+        <label for="price">Price:</label>
+        <input type="number" id="price" name="price" placeholder="Enter price..." required>
+        <label for="description">Description:</label>
+        <textarea id="description" name="description" rows="5" placeholder="Enter description..."></textarea>
+        <label for="contact">Contact:</label>
+        <input type="tel" id="contact" name="contact" required placeholder="Enter contact...">
+        <button type="submit">Add Listing</button>
+      </form>
+    </section>
+    <section id="market-prices">
+      <h2>Market Prices</h2>
+      <table id="market-prices-table">
+        <tr>
+          <th>Animal Type</th>
+          <th>Price (KSH)</th>
+        </tr>
+        <tr>
+          <td>Camel</td>
+          <td>150,000</td>
+        </tr>
+        <tr>
+          <td>Cow</td>
+          <td>70,000</td>
+        </tr>
+        <tr>
+          <td>Goat</td>
+          <td>27,000</td>
+        </tr>
+        <tr>
+          <td>Sheep</td>
+          <td>25,000</td>
+        </tr>
+        <tr>
+          <td>Donkey</td>
+          <td>35,000</td>
+        </tr>
+        <tr>
+          <td>Chicken</td>
+          <td>8,000</td>
+        </tr>
+      </table>
+    </section>
+    <section id="contact">
+      <h2>Contact Sellers</h2>
+      <p>If you're interested in purchasing livestock, please contact the seller directly. FarmLink does not facilitate transactions.</p>
+      <p>**Disclaimer:** FarmLink is not responsible for the quality or condition of livestock advertised.</p>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 FarmLink. All rights reserved.</p>
+  </footer>
+  <script src="index.js"></script>
+</body>
+</html>

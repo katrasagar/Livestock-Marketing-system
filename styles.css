@@ -1,0 +1,93 @@
+body {
+    font-family: sans-serif;
+    background-color: aqua;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  header {
+    background-color: rgb(221, 221, 243);
+    text-align: center;
+  }
+  
+  h1, h2 {
+    margin: 10px 0;
+    background-color: black;
+    color: white;
+  }
+  h3{
+    color: orangered;
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  section {
+    width: 45%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+  }
+  
+  #listings ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #listings li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  #listings li img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  #add-listing label,
+   #contact p {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  #add-listing input,
+  #add-listing textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  #add-listing button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+
+  #market-prices table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#market-prices th, #market-prices td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #f4f4f4;
+}
+
+#market-prices th {
+    background-color: #f4f4f4;
+}
+  
+  #contact {
+    text-align: justify; /* Align contact section text for better readability */
+  }
+  
